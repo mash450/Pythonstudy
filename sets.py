@@ -18,5 +18,8 @@ days.clear()
 print(days)
 
 # discard
-days.discard()
-print(days)
+
+
+s = {'foo', 'bar', 'baz', 'qux'}
+del s['bar']
+print(s)
