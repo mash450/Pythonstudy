@@ -2,15 +2,11 @@
 # For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
 
-speed = int(input("Enter the speed of the car: "))
-
-if speed < 70:
-    print("Ok")
+speed=int(input("enter speed of car: "))
+if speed<70:
+    print("ok")
 else:
-    # Calculate demerit points
-    demerit_points = (speed - 70) // 5
-    print(f"Points: {demerit_points}")
-
-    # Check if demerit points exceed 12
-    if demerit_points > 12:
-        print("License suspended")
+    demerit_points=(speed-70)//5
+    print(f"points is: {demerit_points} ")
+    if demerit_points>12:
+        print("license suspended")

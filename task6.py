@@ -1,6 +1,6 @@
 # Set the correct password and maximum attempts
-correct_password = "admin@123"
-max_attempts = 4
+# correct_password = "admin@123"
+# max_attempts = 4
 
 # Loop through attempts
 # for attempt in range(1, max_attempts + 1):
